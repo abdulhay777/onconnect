@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Qanelas Regular';
+    src: url('../fonts/Regular/Qanelas-Regular.woff2') format('woff2'),
+        url('../fonts/Regular/Qanelas-Regular.woff') format('woff'),
+        url('../fonts/Regular/Qanelas-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Qanelas Medium';
+    src: url('../fonts/Medium/Qanelas-Medium.woff2') format('woff2'),
+        url('../fonts/Medium/Qanelas-Medium.woff') format('woff'),
+        url('../fonts/Medium/Qanelas-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Qanelas SemiBold';
+    src: url('../fonts/SemiBold/Qanelas-SemiBold.woff2') format('woff2'),
+        url('../fonts/SemiBold/Qanelas-SemiBold.woff') format('woff'),
+        url('../fonts/SemiBold/Qanelas-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Qanelas Bold';
+    src: url('../fonts/Bold/Qanelas-Bold.woff2') format('woff2'),
+        url('../fonts/Bold/Qanelas-Bold.woff') format('woff'),
+        url('../fonts/Bold/Qanelas-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
