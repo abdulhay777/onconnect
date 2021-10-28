@@ -28,5 +28,8 @@
                 <button>Тулик куриш</button>
             </div>
         </div>
+        <div class="content__list-info">
+            
+        </div>
     </div>
 </template>

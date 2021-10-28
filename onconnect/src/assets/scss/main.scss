@@ -31,7 +31,7 @@ body {
 
 .login-page{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #4F7D96;
     display: flex;
     align-items: center;
@@ -42,6 +42,10 @@ body {
         border-radius: 16px;
         display: flex;
         flex-wrap: wrap;
+        @media screen and (max-width: 1440px) {
+            width: 900px;
+            height: 550px;
+        }
         &__banner{
             width: 50%;
             border-top-left-radius: 16px;
@@ -50,6 +54,11 @@ body {
             display: flex;
             align-items: center;
             justify-content: flex-end;
+            @media screen and (max-width: 1440px) {
+                img{
+                    width: 400px;
+                }
+            }
         }
         &__login{
             width: 50%;
@@ -61,8 +70,12 @@ body {
             justify-content: center;
             &__form{
                 text-align: center;
-                img{
+                .img{
                     margin-bottom: 65px;
+                    @media screen and (max-width: 1440px) {
+                        width: 150px;
+                        margin-bottom: 30px;
+                    }
                 }
                 &__bottom {
                     margin-top: 24px;
@@ -181,6 +194,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 9;
     padding: 16px 18px;
     display: flex;
     justify-content: space-between;
@@ -266,6 +280,9 @@ body {
                     color: #9EC8DC;
                     font-family: $semibold;
                     font-size: 16px;
+                    @media screen and (max-width: 1440px) {
+                        font-size: 13px;
+                    }
                 }
             }
         }
@@ -291,6 +308,10 @@ body {
             color: #1B1D2C;
             font-family: $semibold;
             text-decoration: none;
+            font-size: 14px;
+            @media screen and (max-width: 1440px) {
+                font-size: 12px;
+            }
             &:hover{
                 color: #FE844B;
             }
@@ -309,6 +330,9 @@ body {
     padding-top: 16px;
     background-color: #ffffff;
     box-shadow: 16px 0px 16px rgba(79, 125, 150, 0.051);
+    @media screen and (max-width: 1440px) {
+        width: 400px;
+    }
     &__search{
         display: flex;
         align-items: center;
@@ -354,6 +378,9 @@ body {
             }
             .m-62{
                 margin-left: 62px;
+                @media screen and (max-width: 1440px) {
+                    margin-left: 30px;
+                }
             }
             div{
                 display: flex;
@@ -478,6 +505,36 @@ body {
                 margin: 0;
                 padding: 0;
                 list-style: none;
+                li{
+                    margin-right: 61px;
+                    @media screen and (max-width: 1440px) {
+                        margin-right: 25px;
+                    }
+                    span{
+                        font-size: 12px;
+                        letter-spacing: 0.36px;
+                        color: #7A868F;
+                    }
+                    p{
+                        font-size: 14px;
+                        letter-spacing: 0.42px;
+                        color: #1B1D2C;
+                        font-family: $semibold;
+                    }
+                }
+            }
+            button{
+                background-color: #FE844B;
+                box-shadow: 0px 3px 6px #FE844B3D;
+                border-radius: 5px;
+                letter-spacing: 0.36px;
+                color: #FFFFFF;
+                font-size: 12px;
+                font-family: $medium;
+                border: 0;
+                outline: none;
+                padding: 8px 11px;
+                cursor: pointer;
             }
         }
     }

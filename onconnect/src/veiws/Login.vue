@@ -6,7 +6,7 @@
             </div>
             <div class="login-page__content__login">
                 <div class="login-page__content__login__form">
-                    <img :src="require('../assets/img/logo.png')" alt="">
+                    <img class="img" :src="require('../assets/img/logo.png')" alt="">
                     <div class="form-style">
                         <div class="form">
                             <input type="text" id="username" class="form__input" autocomplete="off" placeholder=" " />
