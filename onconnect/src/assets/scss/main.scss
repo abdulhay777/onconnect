@@ -462,5 +462,23 @@ body {
         border-radius: 6px;
         padding: 16px;
         background-color: #ffffff;
+        h2{
+            font-size: 18px;
+            font-family: $semibold;
+            letter-spacing: 0.54px;
+            color: #4F7D96;
+            margin: 0;
+        }
+        &__ul{
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            ul{
+                display: flex;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+        }
     }
 }
